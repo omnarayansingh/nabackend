@@ -9,7 +9,7 @@ app.use(express.urlencoded())
 app.use(cors({
   origin: 'https://nafrontend-d2jtpd99s-omnarayansingh.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type', 'Authorization', 'content-type']
 }));
 
 
