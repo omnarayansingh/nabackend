@@ -6,8 +6,6 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded())
 
-const cors = require('cors');
-
 app.use(cors({
   origin: 'https://nafrontend.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
