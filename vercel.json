@@ -10,8 +10,8 @@
             "methods": ["POST"]
         },
         {
-            "src": "https://vercel.com/omnarayansingh/nabackend/register",
-            "dest": "register",
+            "src": "/register",
+            "dest": "https://vercel.com/omnarayansingh/nabackend/register",
             "methods": ["POST"]
         }
     ]
