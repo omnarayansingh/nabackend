@@ -7,6 +7,11 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
+app.use(cors({
+  origin: 'https://nafrontend.vercel.app',
+  optionsSuccessStatus: 200
+}));
+
 const uri = "mongodb+srv://om:1234om@cluster0.dztj6bc.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
