@@ -10,7 +10,7 @@ app.use(express.urlencoded())
 app.use(cors({
   origin: 'https://nafrontend.vercel.app',
   optionsSuccessStatus: 200,
-  allowedHeaders: ['Content-Type', 'Authorization']
+  allowedHeaders: ['Content-Type']
 }));
 
 const uri = "mongodb+srv://om:1234om@cluster0.dztj6bc.mongodb.net/?retryWrites=true&w=majority";
