@@ -57,6 +57,6 @@ app.post("/login", (req, res)=> {
     })  
   const port = process.env.PORT || 9002;
 
-  app.listen(port, () => {
-    console.log(`BE started at port ${port}`)
-  });
+  app.listen(9002,() => {
+      console.log("BE started at port 9002")
+  })
