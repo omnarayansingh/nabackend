@@ -3,10 +3,21 @@
       "builds": [
          { "src": "./index.js", "use": "@vercel/node" }
       ],
-      "routes": [
+       "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/"
+            "src": "/login",
+            "dest": "https://vercel.com/omnarayansingh/nabackend/login",
+            "methods": ["POST"]
+        },
+        {
+            "src": "https://vercel.com/omnarayansingh/nabackend/register",
+            "dest": "register",
+            "methods": ["POST"]
         }
-      ]
-   }
+    ]
+}
+
+
+
+
+
