@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 
 app.use(cors({
-  origin: 'https://nafrontend-d2jtpd99s-omnarayansingh.vercel.app/',
+  origin: '*',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization', 'content-type']
 }));
