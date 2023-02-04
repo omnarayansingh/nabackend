@@ -6,12 +6,12 @@
        "routes": [
         {
             "src": "/login",
-            "dest": "https://vercel.com/omnarayansingh/nabackend/login",
+            "dest": "./index.js",
             "methods": ["POST"]
         },
         {
             "src": "/register",
-            "dest": "https://vercel.com/omnarayansingh/nabackend/register",
+            "dest": "./index.js",
             "methods": ["POST"]
         }
     ]
