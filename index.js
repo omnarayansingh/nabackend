@@ -65,3 +65,5 @@ const port = process.env.PORT;
 app.listen(port, () => {
   console.log(`BE started at port ${port}`);
 });
+
+export default app
